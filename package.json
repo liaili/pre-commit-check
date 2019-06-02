@@ -13,6 +13,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "lint-staged": {
+    "src/*.css": "stylelint --syntax css && stylelint --fix css"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
