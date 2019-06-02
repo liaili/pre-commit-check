@@ -20,10 +20,7 @@
     }
   },
   "lint-staged": {
-    "src/*.css": "stylelint --syntax css && stylelint --fix css"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "src/*.css": "stylelint"
   },
   "browserslist": {
     "production": [
