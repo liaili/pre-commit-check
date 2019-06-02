@@ -1,0 +1,7 @@
+{
+  "extends": "standard",
+  "plugins": ["react"],
+  "rules": {
+    "no-unused-vars": 0
+  }
+}
